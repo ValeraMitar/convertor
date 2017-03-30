@@ -1,0 +1,17 @@
+span {
+    color: red;
+    width: 10%;
+    font-size: 13pt;
+    display: inline-block;
+    border: 2px solid #000;
+    background-color: cornsilk;
+    padding: 7px;
+    transition: background-color 1s linear, transform 1s linear;
+    box-sizing: border-box;
+}
+
+span.active {
+    color: blue;
+    background: darkorange;
+    transform: translateX(900%);
+}
